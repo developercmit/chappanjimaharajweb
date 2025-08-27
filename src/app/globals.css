@@ -1,6 +1,9 @@
-/* All imports must come first */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles after this */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
-@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -31,6 +34,7 @@ body {
   font-family: "Noto Sans Devanagari", sans-serif;
   scroll-behavior: smooth;
 }
+
 
 .hero-slider span.swiper-pagination-bullet {
     width: 20px;
