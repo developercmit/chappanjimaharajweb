@@ -1,5 +1,5 @@
 {
 "name": "my-appshree-chappan-ji-maharaj-koyla",
 "compatibility_date": "2025-08-27",
-"main": "src/index.ts"
+"main": "src/app/page.tsx"
 }
