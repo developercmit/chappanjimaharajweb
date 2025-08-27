@@ -1,10 +1,11 @@
+/* ✅ All imports must come first */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Your custom styles after this */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
-
+/* custom styles below */
 :root {
   --background: #ffffff;
   --foreground: #171717;
