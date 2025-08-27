@@ -1,2 +1,6 @@
 name = "shreechappanjimaharajweb"
 pages_build_output_dir = "./out"
+compatibility_date = "2025-08-27"
+
+[build]
+command = "npm run build && npm run pages:build"
