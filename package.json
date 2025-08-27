@@ -2,11 +2,12 @@
   "name": "my-appshree-chappan-ji-maharaj-koyla",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build && next export",
+  "deploy": "wrangler pages deploy ./out"
+  "start": "next start"
+},
   "dependencies": {
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
