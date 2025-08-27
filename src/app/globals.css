@@ -1,5 +1,6 @@
+/* All imports must come first */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
 @import "tailwindcss";
-
 
 :root {
   --background: #ffffff;
@@ -19,16 +20,18 @@
     --foreground: #ededed;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+
 html {
-      scroll-behavior: smooth;
-    }
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Noto Sans Devanagari", sans-serif;
   scroll-behavior: smooth;
 }
+
 .hero-slider span.swiper-pagination-bullet {
     width: 20px;
     height: 20px;
